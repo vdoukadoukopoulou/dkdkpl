@@ -1,7 +1,8 @@
 body {
   font-family: 'Fira Sans', sans-serif;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 26px;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -19,4 +20,5 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20vh;
+  text-align: justify;
 }
