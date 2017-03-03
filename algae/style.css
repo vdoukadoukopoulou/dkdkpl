@@ -123,7 +123,7 @@ a:hover.tooltips span {
   margin-left: -376px;
   z-index: 999;
   color: #3C00FF;
-  font-family: FiraSans-Bold;
+  font-weight: bold;
   font-size: 36px;
   width: 800px;
 }
@@ -281,4 +281,7 @@ a:hover.tooltips span {
 
 #home a:hover {
   background-color: white;
+}
+
+
 }
