@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 body {
   font-family: 'Fira Sans', sans-serif;
   font-size: 16pt;
@@ -7,7 +8,6 @@ body {
   color: #000000;
   max-width: 100%;
   overflow-x: hidden;
-  font-family: FiraSans-light;
   /*cus victoria doesn't like capital*/
   text-transform: lowercase;
 }
@@ -48,28 +48,25 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-family: FiraSans-Bold;
-  font-weight: 900;
+  font-weight: bold;
   letter-spacing: 8.57px;
   margin-bottom: 0;
 }
 
 h2 {
-  font-family: FiraSans-Bold;
-  font-weight: 900;
+  font-weight: bold;
   letter-spacing: 8.57px;
   margin-bottom: 175px;
 }
 
 h3 {
-  font-family: FiraSans-Bold;
-  font-weight: 900;
+  font-weight: bold;
   letter-spacing: 8.57px;
   margin-top: 175px;
 }
 
 h4 {
-  font-family: FiraSans-Bold;
+  font-weight: bold;
   font-size: 12pt;
   color: #3C00FF;
   letter-spacing: 3.21px;
@@ -264,4 +261,24 @@ a:hover.tooltips span {
   margin-right: auto;
   text-align: center;
   display: block;
+}
+
+
+/* home */
+
+#home a {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  border: none;
+  background-color: #3C00FF;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 5px;
+}
+
+#home a:hover {
+  background-color: white;
 }
