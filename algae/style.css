@@ -12,6 +12,10 @@ body {
   text-transform: lowercase;
 }
 
+img {
+  width: 100%;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -283,5 +287,15 @@ a:hover.tooltips span {
   background-color: white;
 }
 
-
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .big {
+    font-size: 70pt;
+  }
+  .chapter {
+    padding: 0 30px;
+  }
 }
