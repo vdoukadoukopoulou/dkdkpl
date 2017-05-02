@@ -1,0 +1,17 @@
+body {
+  padding: 0px 100px;
+}
+
+img {
+  max-width: 60vw;
+}
+
+body img:nth-child(odd) {
+  display: block;
+  clear: right;
+}
+
+body img:nth-child(even) {
+  display: block;
+  float: right;
+}
