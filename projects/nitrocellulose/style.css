@@ -1,17 +1,34 @@
-body {
-  padding: 0px 100px;
-}
-
 img {
   max-width: 60vw;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  z-index: 20;
+  position: relative;
 }
 
-body img:nth-child(odd) {
+.caption {
+  max-width: 60vw;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
-  clear: right;
+  z-index: 20;
+  position: relative;
+  text-align: right;
 }
 
-body img:nth-child(even) {
-  display: block;
-  float: right;
+img:first-of-type {
+  z-index: 5;
+  position: relative;
+}
+
+.text {
+  z-index: 10;
+  position: fixed;
+  padding-top: 20vh;
+  padding-left: 60px;
+  width: 40vw;
+  min-width: 340px;
 }
