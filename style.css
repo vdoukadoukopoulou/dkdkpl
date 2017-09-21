@@ -2,7 +2,9 @@ body {
    font-family: 'Overpass', 'Fira Sans', sans-serif;
    font-size: 18px;
    line-height: 26px;
-   -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
    margin: 0;
    background-color: #3c00ff;
    color: white;
